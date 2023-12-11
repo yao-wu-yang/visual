@@ -13,14 +13,24 @@ nav {
   padding: 100px 330px;
 }
 
+#chart2
+{
+  margin-top: 300px;
+  width: 1000px; height: 700px;
+}
+#chart3
+{
+  margin-top: 300px;
+  width: 1000px; height: 700px;
+}
 .filmm img {
   transform: translateX(25rem) translateY(14rem); /*平移*/
 }
-.main {
-  width: 1100px;
-  height: 900px;
+.wordcloud {
+  width:98vw;
+  height:98.5vh;
   margin: 0;
-  transform: translateX(15rem) translateY(-2rem);
+  transform: translateX(0rem) translateY(-2rem);
 }
 .logo { 
   color: brown;
