@@ -1,10 +1,12 @@
 #sliderContainer {
+    transform: translateX(0rem) translateY(2rem);
     width: 80%;
     margin: 20px auto;
+    
 }
 
 #yearDisplay {
-    text-align: center;
+    transform: translateX(8rem) translateY(2rem); /*平移*/
     font-size: 20px;
     margin-bottom: 10px;
 }

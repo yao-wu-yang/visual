@@ -262,7 +262,7 @@ option = {
         calculable: false, // 是否显示拖拽用的手柄
         // 定义 在选中范围中 的视觉元素
         inRange: {
-            color: ['#FFF', '#FF0000']
+            color: ['#ffffff', '#67dfe9','#e5bf4b','#df9521']
         }
         // 滑动条配置
     },

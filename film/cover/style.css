@@ -23,6 +23,11 @@ nav {
   margin-top: 300px;
   width: 1000px; height: 700px;
 }
+#chart4
+{
+  margin-top: 200px;
+  width:800px;height:600px;
+}
 .filmm img {
   transform: translateX(25rem) translateY(14rem); /*平移*/
 }
