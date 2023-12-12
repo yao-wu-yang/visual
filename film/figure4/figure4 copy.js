@@ -2,7 +2,7 @@ var myChart4 = echarts.init(document.getElementById('chart4'));
 
 var data = [{
     name: 'American',
-    value: 16020,
+    value: 17377,
     children: [{
         name: 'Drama',
         value: 3549,
@@ -36,6 +36,10 @@ var data = [{
         value: 414,
     }, 
     {
+        name: 'Unknown',
+        value: 398,
+    }, 
+    {
         name: 'Musical',
         value: 386,
     }, 
@@ -46,6 +50,10 @@ var data = [{
     {
         name: 'Film Noir',
         value: 343,
+    }, 
+    {
+        name: 'Romantic Comedy',
+        value: 322,
     }, 
     {
         name: 'Crime',
@@ -61,15 +69,39 @@ var data = [{
     }, 
     {
         name: 'Romance',
-        value: 522,
+        value: 200,
     }, 
     {
         name: 'War',
         value: 229,
     }, 
     {
+        name: 'Sci-Fi',
+        value: 182,
+    }, 
+    {
+        name: 'Animated',
+        value: 180,
+    }, 
+    {
+        name: 'Comedy, Drama',
+        value: 175,
+    }, 
+    {
         name: 'Family',
         value: 163,
+    }, 
+    {
+        name: 'Musical Comedy',
+        value: 146,
+    }, 
+    {
+        name: 'Fantasy',
+        value: 144,
+    }, 
+    {
+        name: 'Biography',
+        value: 130,
     }, 
     {
         name: 'others',
@@ -85,7 +117,7 @@ var data = [{
         name: 'comedy',
         value: 669,
     },{
-        name: 'action',
+        name: 'unknown',
         value: 603,
     }, {
         name: 'crime',
@@ -94,10 +126,10 @@ var data = [{
         name: 'thriller',
         value: 192,
     }, {
-        name: 'horror', 
+        name: 'horror',
         value: 153,
     },{
-        name: 'Romance',
+        name: 'others',
         value: 1094,
     }]   
 },{

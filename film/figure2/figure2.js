@@ -72,7 +72,6 @@
             },
             title: {
                 text: 'Cumulative Top 10 Movies by Year',
-                subtext: 'Data Source: wiki_movie_plots_deduped.csv',
                 left: 'center',
             },
             tooltip: {
