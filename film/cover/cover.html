@@ -13,6 +13,23 @@
   <script src='../wordcloud/echarts-wordcloud.js'></script>
   <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/map/js/world.js"></script>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+    h1 {
+        font-family: 'Special Elite', cursive;
+        color: #3498db;
+        font-size: 70px; /* 调整字体大小的值，可以根据实际需要修改 */
+    }
+  </style>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+    h2 {
+        font-family: 'Special Elite', cursive;
+        font-size: 25px; 
+    }
+</style>
+
 </head>
 
 <body>
@@ -29,18 +46,49 @@
       <img src="images/film.png" alt="">
     </div>
 
+
   </div>
+  <div style="position: absolute;top:125%;left:70%">
+    <h1 id="cloud_title">word clould</h1>
+    <h2 id="cloud_title">将高频词汇以词云的形式展示。通过统计电影的词汇，筛选出词频最高的词汇并组成“Film”的形状</h2>
+    <h2 id="cloud_title">可以通过鼠标指向、点击来查看词语出现的词频。词语出现的频率越高，其在词云中的字体大小越大，颜色越深</h2>
+    <h2 id="cloud_title">出现最多的为leaves、wife 、own、son、meet等</h2>
+    <h2 id="cloud_title">可以联想到家庭、重逢等电影类型，如家庭剧、浪漫喜剧、战争剧、等。</h2>
+  </div>
+  <div style="position: absolute;top:225%;left:70%">
+    <h1 id="cloud_title">worldmap</h1>
+    <h2 id="cloud_title">世界地图统计了历年以来各个国家发行的电影数量</h2>
+    <h2 id="cloud_title">左上角可通过拖动互动来选择年份，鼠标指向可互动显示国家的电影发行数量</h2>
+    <h2 id="cloud_title">国家的颜色由电影数量变多而渐变颜色</h2>
+    <h2 id="cloud_title">统计结果可见美国是电影行业当之无愧的霸主</h2>
+  </div>
+  <div style="position: absolute;top:330%;left:70%">
+    <h1 id="cloud_title">Film of the Year</h1>
+    <h2 id="cloud_title">左上角渐变颜色条可通过鼠标指向互动显示当前颜色对应的数据。</h2>
+    <h2 id="cloud_title">年份进度条会自动循环跳动，也可以用点击直接跳转年份</h2>
+    <h2 id="cloud_title">设有单击互动的暂停/继续按钮</h2>
+  </div>
+  <div style="position: absolute;top:450%;left:70%">
+    <h1 id="cloud_title">Force-directed graph</h1>
+    <h2 id="cloud_title">力引导线图通常用于可视化图形网络中节点之间的连接关系</h2>
+    <h2 id="cloud_title">使用力引导线图工具，统计展示了各类主流电影类型的一线演员</h2>
+    <h2 id="cloud_title">可通过鼠标指向显示当前分类电影数、演员演电影数、演员所属电影类型</h2>
+  </div>
+  <div style="position: absolute;top:550%;left:70%">
+    <h1 id="cloud_title">pie graph</h1>
+    <h2 id="cloud_title">统计了各个国家发行各类电影数量及比例、从属关系</h2>
+    <h2 id="cloud_title">可通过鼠标指向强调当前指向国家或者指向电影类型，给出当前国家更详细的电影类型饼图</h2>
+  </div>
+
+
+
+
   <div class="text">
-    <h1 id="cloud_title">词云图</h1>
-    <p id="cloud_text">将高频词汇以词云的形式展示。通过统计电影简介的词汇，筛选出词频最高的词汇并组成<br>
-      Film的形状。可以通过鼠标指向来查看词语出现的词频。词语出现的频率越高，其在词云<br>中的字体大小越大。<br>
-      图中出现最多的单词为leaves 、away 、wife 、own、son、meet等词，可以联想到家庭<br>
-      重逢等命题的电影类型，如家庭剧、浪漫喜剧、战争剧、冒险剧等。</p>
+    
     <div class="wordcloud" id='wordcloud'></div>
   </div>
 
-  <h1 id="cloud_title">Worldmap</h1>
-  <p id="cloud_text">世界地图统计了历年以来各个国家发行的电影数量。左上角可通过拖动互动来选择年份，鼠标指向可互动显示国家的电影发行数量。国家的颜色由电影数量变多而渐变颜色。统计结果可见美国是电影行业当之无愧的霸主。</p>
+
   
   <div id="sliderContainer">
     <input type="range" min="1901" max="2017" step="1" value="1901" id="yearSlider">

@@ -3,7 +3,7 @@
 		{ category: 'Action', movies: ['Cody Longo', 'Jeffrey Tambor', 'Jonathan Lipnicki'], count: 3094/100 },
 		{ category: 'Comedy', movies: ['Charlie Tahan', 'Atticus Shaffer', 'Winona Ryder'], count: 4375/100 },
 		{ category: 'Drama', movies: ['Robert Capron', 'Ana Gasteyer', 'Holmes Osborne'], count: 5969/100 },
-		{ category: 'Unknown', movies: ['Mike Goldberg', 'Greg Germann', 'Jason Miller'], count: 6089/100 },
+		{ category: 'Romance', movies: ['Mike Goldberg', 'Greg Germann', 'Jason Miller'], count: 6089/100 },
 		{ category: 'Horror', movies: ['Gary Oldman', 'Mia Wasikowska', 'Jessica Chastain'], count: 3167/100 },
 
 	];

@@ -2,7 +2,7 @@ var myChart4 = echarts.init(document.getElementById('chart4'));
 
 var data = [{
     name: 'American',
-    value: 16020,
+    value: 17377,
     children: [{
         name: 'Drama',
         value: 3549,
@@ -36,20 +36,24 @@ var data = [{
         value: 414,
     }, 
     {
-        name: 'Musical',
-        value: 386,
+        name: 'Unknown',
+        value: 398,
     }, 
     {
-        name: 'Science Fiction',
-        value: 355,
+        name: 'Musical',
+        value: 532,
     }, 
     {
         name: 'Film Noir',
         value: 343,
     }, 
     {
+        name: 'Romantic Comedy',
+        value: 322,
+    }, 
+    {
         name: 'Crime',
-        value: 274,
+        value: 449,
     }, 
     {
         name: 'Mystery',
@@ -61,15 +65,19 @@ var data = [{
     }, 
     {
         name: 'Romance',
-        value: 522,
+        value: 200,
     }, 
     {
         name: 'War',
         value: 229,
     }, 
     {
-        name: 'Family',
-        value: 163,
+        name: 'Sci-Fi',
+        value: 880,
+    }, 
+    {
+        name: 'Biography',
+        value: 274,
     }, 
     {
         name: 'others',
@@ -85,7 +93,7 @@ var data = [{
         name: 'comedy',
         value: 669,
     },{
-        name: 'action',
+        name: 'unknown',
         value: 603,
     }, {
         name: 'crime',
@@ -94,10 +102,10 @@ var data = [{
         name: 'thriller',
         value: 192,
     }, {
-        name: 'horror', 
+        name: 'horror',
         value: 153,
     },{
-        name: 'Romance',
+        name: 'others',
         value: 1094,
     }]   
 },{
@@ -132,19 +140,19 @@ var data = [{
     value: 2599,
     children: [{
         name: 'unknown',
-        value: 1822,
+        value: 1067,
     }, 
     {
         name: 'action',
-        value: 108,
+        value: 523,
     }, 
     {
         name: 'drama',
-        value: 96,
+        value: 322,
     }, 
     {
         name: 'romance',
-        value: 96,
+        value: 210,
     }, 
     {
         name: 'others',
@@ -178,15 +186,15 @@ var data = [{
     value: 1095,
     children: [{
         name: 'unknown',
-        value: 549,
+        value: 391,
     }, 
     {
         name: 'drama',
-        value: 112,
+        value: 210,
     }, 
     {
         name: 'comedy',
-        value: 100,
+        value: 160,
     }, 
     {
         name: 'others',
@@ -200,12 +208,8 @@ var data = [{
         value: 315,
     }, 
     {
-        name: 'unknown',
-        value: 47,
-    }, 
-    {
         name: 'action',
-        value: 150,
+        value: 197,
     }, 
     {
         name: 'others',
@@ -271,8 +275,8 @@ var data = [{
         value: 209,
     }]   
 },{
-    name: 'Bengali',
-    value: 306,
+    name: 'others',
+    value: 587,
     children: [{
         name: 'Romance',
         value: 166,
@@ -280,89 +284,13 @@ var data = [{
     {
         name: 'others',
         value: 140,
-    }]   
-},{
-    name: 'Russian',
-    value: 232,
-    children: [{
-        name: 'drama',
-        value: 80,
     }, 
     {
-        name: 'others',
-        value: 209,
+        name: 'comedy',
+        value: 281,
     }]   
-},{
-    name: 'Marathi',
-    value: 141,
-    children: [{
-        name: 'drama',
-        value: 80,
-    }, 
-    {
-        name: 'others',
-        value: 61,
-    }]   
-},{
-    name: 'Filipino',
-    value: 128,
-    children: [{
-        name: 'others',
-        value: 128,
-    }]   
-},{
-    name: 'Bangladeshi',
-    value: 87,
-    children: [{
-        name: 'others',
-        value: 87,
-    }] 
-},{
-    name: 'Punjabi',
-    value: 84,
-    children: [{
-        name: 'others',
-        value: 84,
-    }]   
-},{
-    name: 'Malaysian',
-    value: 70,
-    children: [{
-        name: 'others',
-        value: 70,
-    }]  
-},{
-    name: 'Turkish',
-    value: 70,
-    children: [{
-        name: 'others',
-        value: 70,
-    }] 
-},{
-    name: 'Egyptian',
-    value: 67,
-    children: [{
-        name: 'others',
-        value: 67,
-    }]  
-}
-,{
-    name: 'Assamese',
-    value: 9,
-    children: [{
-        name: 'others',
-        value: 9,
-    }]  
-}
-,{
-    name: 'Maldivian',
-    value: 2,
-    children: [{
-        name: 'others',
-        value: 2,
-    }]  
-}
-];
+}];
+
 
 option4 = {
     series: {
