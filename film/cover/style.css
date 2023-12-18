@@ -39,7 +39,7 @@ nav {
     height:80vh;
 }
 .filmm img {
-  transform: translateX(12rem) translateY(8rem); /*平移*/
+  transform: translateX(18rem) translateY(8rem); /*平移*/
 }
 
 .wordcloud {

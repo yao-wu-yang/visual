@@ -65,7 +65,7 @@
             timeline: {
                 axisType: 'category',
                 autoPlay: true,
-                playInterval: 1500,
+                playInterval: 1000,
                 data: cumulativeData.map(function (item) {
                     return item.year;
                 }),
